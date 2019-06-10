@@ -2,10 +2,10 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Números aleatorios</title>
+    <title>If</title>
   </head>
   <body>
-    <h1>Números aleatorios</h1>
+    <h1>If</h1>
     <!-- CÓDIGO PHP -->
     <?php
       // DECLARAR VARIABLE ALEATORIA
