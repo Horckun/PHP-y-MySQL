@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Matriz en formulario</title>
+  </head>
+  <body>
+    <h1>Matriz en formulario</h1>
+    <!-- FORMULARIO -->
+    <form style="width: 30%; border: 1px solid black; padding: 1%;" action="datos.php" method="post">
+      <!-- MARCO -->
+      <fieldset>
+        <!-- LEYENDA -->
+        <legend>Escribir colores</legend>
+        <!-- RECUADRO PARA ESCRIBIR -->
+        <input type="text" name="color[0]" value="">
+        <br>
+        <input type="text" name="color[1]" value="">
+        <br>
+        <input type="text" name="color[2]" value="">
+        <br>
+        <input type="text" name="color[3]" value="">
+      </fieldset>
+      <hr>
+      <!-- ENVIAR -->
+      <input type="submit" name="enviar" value="Ver datos">
+    </form>
+  </body>
+</html>
