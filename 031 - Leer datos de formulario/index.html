@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Leer datos de formulario</title>
+  </head>
+  <body>
+    <h1>Leer datos de formulario</h1>
+    <!-- FORMULARIO -->
+    <form style="width: 30%; border: 1px solid black; padding: 1%;" action="datos.php" method="post">
+      <fieldset>
+        <legend>Datos personales</legend>
+        <label>Nombre: </label>
+        <input type="text" name="nombre" value="" required autofocus>
+        <br><br>
+        <label>Correo electrónico: </label>
+        <input type="email" name="email" value="" required>
+      </fieldset>
+      <fieldset>
+        <legend>Comentario</legend>
+        <textarea name="comentario" rows="8" cols="30%" required></textarea>
+      </fieldset>
+      <hr>
+      <input type="submit" name="enviar" value="Enviar formulario">
+    </form>
+  </body>
+</html>
