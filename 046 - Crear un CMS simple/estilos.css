@@ -1,0 +1,38 @@
+body {
+  background-color: #43b6f7;
+  width: 50%;
+}
+h1 {
+  color: white;
+  font-family: "Comic Sans MS";
+  text-align: center;
+  background-color: #43b600;
+  padding: 1%;
+  border: 1px solid #0043b6;
+  text-shadow: 1px 1px 1px black;
+}
+.menu {
+  float: left;
+  width: 20%;
+  color: white;
+  text-align: center;
+}
+.menu li {
+  list-style: none;
+  padding: 1% 0;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  border: orange;
+}
+.menu a:hover {
+  border: 1px solid black;
+}
+.contenido {
+  float: left;
+  width: 70%;
+  margin: 1%;
+  padding: 1%;
+  background-color: white;
+}

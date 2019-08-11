@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pagina>
+  <titulo>Simple CMS</titulo>
+  <top>top.html</top>
+  <menu>menu.html</menu>
+  <contenido>contenido.html</contenido>
+</pagina>
